@@ -68,7 +68,6 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
-  <!--project path="external/faceunlock" name="android_external_faceunlock" remote="arrow-gitlab" /-->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
@@ -149,6 +148,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="arrow-legacy" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="arrow" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="arrow" />
 
   <!-- packages repos -->
@@ -161,12 +161,12 @@
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="arrow" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="arrow" />
-  <!--project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="arrow-gitlab" /-->
   <!--project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" /-->
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
   <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="arrow" />
+  <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="arrow-gitlab" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="arrow" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="arrow" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
@@ -178,6 +178,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="arrow-legacy" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="arrow" />
+  <project path="packages/modules/Bluetooth/android/BtHelper" name="android_packages_modules_Bluetooth_android_BtHelper" remote="arrow"/>
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="legacy" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="arrow" />
@@ -193,6 +194,7 @@
   <!-- prebuilt repos -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="arrow" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.85" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="arrow" />
 
   <!-- system repos -->
